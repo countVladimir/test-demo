@@ -23,6 +23,7 @@ public class UserController {
 
     @GetMapping
     public UserDto findUser(Long id) {
+        System.out.println("bla");
         return userService.findUser(id);
     }
 
