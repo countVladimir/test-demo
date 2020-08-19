@@ -7,6 +7,7 @@ public class UserDto {
     private String email;
 
     public Long getId() {
+        System.out.println("DTO");
         return id;
     }
 
