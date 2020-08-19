@@ -17,7 +17,6 @@ public class ApplicaionSwaggerConfig {
 
     @Bean
     public Docket userApi() {
-        System.out.println("swagger config");
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.any())

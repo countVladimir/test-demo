@@ -39,7 +39,6 @@ class UserControllerTest {
         userDto.setLastName("Ilievski");
         userDto.setEmail("martin.mac@live.com");
         mockMvc = MockMvcBuilders.standaloneSetup(userController).build();
-        System.out.println("another stupid line");
     }
 
     @Test
